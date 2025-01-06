@@ -1,5 +1,4 @@
 import { useContext } from "react";
-import "./mealItem.css";
 import currenctyFormatter from "../../util/formatting.js";
 import Button from "../UI/Button";
 import CartContext from "../../store/CartContext.jsx";
@@ -8,7 +7,7 @@ function Mealitem({ meal }) {
   const cartCtx = useContext(CartContext);
 
   function addToCartHandler() {
-    cartCtx.addItem({meal});
+    cartCtx.addItem(meal);
   }
 
   return (

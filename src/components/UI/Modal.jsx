@@ -10,7 +10,6 @@ export default function Modal({ children, open, onClose, className = '' }) {
     if (open) {
       modal.showModal();
     }
-
     return () => modal.close();
   }, [open]);
 

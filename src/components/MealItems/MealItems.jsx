@@ -1,4 +1,3 @@
-import "./mealItems.css";
 import Mealitem from "../Mealitem/MealItem";
 import { useEffect, useState } from "react";
 
